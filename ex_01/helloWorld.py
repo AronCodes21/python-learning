@@ -3,5 +3,7 @@ from tokenize import Number
 
 
 def helloName(name):
-
-  print("hello",name)
+  if(type(name) != str):
+    print("That's not a name")
+  else:
+    print("hello",name)
