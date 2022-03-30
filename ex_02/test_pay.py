@@ -15,3 +15,6 @@ class testPayment(unittest.TestCase):
 
   def test_4(self):
     result = ex_03.payment(-10, -25)
+
+if __name__ == "__main__":
+  unittest.main()
